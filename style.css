@@ -20,7 +20,7 @@ h1 .dd{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url(/Media/top-banner.png);
+    background-image: url(/Images/top-banner.png);
     background-repeat: no-repeat;
 }
 
@@ -46,7 +46,7 @@ h1 .dd{
 
 #dream-big{
     display: flex;
-    background-image: url(/Media/dream-bg.png);
+    background-image: url(/Images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -60,7 +60,7 @@ h1 .dd{
 }
 
 .experience{
-    background-image: url(/Media/exp-bg.png);
+    background-image: url(/Images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
