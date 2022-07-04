@@ -4,6 +4,10 @@ body{
     padding: 0;
 }
 
+section{
+    margin-bottom: 100px;
+}
+
 h1{
     font-size: 2.8rem;
 }
@@ -12,15 +16,7 @@ h1 .dd{
     color: #ffa500;
 }
 
-.welcome{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #welcome{
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -28,7 +24,7 @@ h1 .dd{
     background-repeat: no-repeat;
 }
 
-.wel-text,.my-pic{
+.wel-text,.my-pic,.dream-text{
     width: 50%;
     padding-left: 7%;
 }
@@ -37,12 +33,28 @@ h1 .dd{
     width: 90%;
 }
 
-.hire-btn{
+.hire-btn,.resume-btn{
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
-    background-image: linear-gradient(#ff926e,#ff6649);
+    background-image: linear-gradient(to right,#ff926e,#ff6649);
     padding: 10px 40px;
     border-radius: 5px;
+    display: inline-block;
+}
+
+#dream-big{
+    display: flex;
+    background-image: url(/Media/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-text{
+    padding-right: 6%;
+}
+.dream-text p{
+    color: rgb(100, 100, 100);
+    margin-bottom: 15px;
 }
