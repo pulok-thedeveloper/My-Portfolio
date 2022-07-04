@@ -24,7 +24,7 @@ h1 .dd{
     background-repeat: no-repeat;
 }
 
-.wel-text,.my-pic,.dream-text{
+.half-width{
     width: 50%;
     padding-left: 7%;
 }
@@ -57,4 +57,44 @@ h1 .dd{
 .dream-text p{
     color: rgb(100, 100, 100);
     margin-bottom: 15px;
+}
+
+.experience{
+    background-image: url(/Media/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience .container{
+    display: flex;
+}
+
+.experience .box{
+    width: 40%;
+    margin: 0 5% 0 5%;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+    padding-left: 2%;
+    padding-right: 1%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.experience h1{
+    font-size: 2.3rem;
+}
+
+.box h3 {
+    color: #ffa500;
+}
+
+.full-stack{
+    border-left: 7px solid #ff6649;
+}
+
+.junior-stack{
+    border-left: 7px solid #6a49ff;
+}
+
+footer p{
+    text-align: center;
 }
